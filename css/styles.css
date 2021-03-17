@@ -1,0 +1,275 @@
+body {
+  margin: 0px auto;
+}
+
+body * {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.wrap {
+  width: 1100px;
+  margin: 0px auto;
+}
+
+hr {
+  margin: 30px;
+}
+
+#header {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+
+#header #barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 148px;
+}
+
+#header #barra .logo {
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+}
+
+#header #barra .logo img {
+  width: 400px;
+  height: 145px;
+}
+
+#header #barra #menu {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+#header #barra #menu > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+#header #barra #menu > ul li a {
+  text-decoration: none;
+  color: #e0dfdf;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+#header #barra #menu > ul li a:hover {
+  border-radius: 5px;
+  background-color: #ba4e94;
+}
+
+#main-text {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main-text #titulo {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+#main-text #titulo h2 {
+  font-weight: 300;
+  padding-bottom: 3px;
+}
+
+#main-text #titulo .symbol {
+  color: #ba4e94;
+  font-size: 50px;
+}
+
+#main-text #titulo h3 {
+  font-weight: 150;
+}
+
+#main-text #main {
+  text-align: justify;
+  line-height: 24px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-bottom: 20px;
+}
+
+.content .pros {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  border-radius: 5px;
+}
+
+#contact {
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+#contact h2 {
+  text-align: center;
+  background-color: #555555;
+  color: white;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+#contact #contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  background-color: white;
+  padding: 20px;
+}
+
+#contact #contacto #formulario {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  line-height: 50px;
+}
+
+#contact #contacto #formulario input[type="text"],
+#contact #contacto #formulario input[type="email"] {
+  width: 47%;
+  height: 30px;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 1px 1px 1px #cccccc inset;
+          box-shadow: 1px 1px 1px #cccccc inset;
+  margin-left: 2px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #cccccc;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+#contact #contacto #formulario textarea {
+  resize: none;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 1px 1px 1px #cccccc inset;
+          box-shadow: 1px 1px 1px #cccccc inset;
+  margin-left: 2px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #cccccc;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+#contact #contacto #formulario input[type="text"]:focus,
+#contact #contacto #formulario input[type="email"]:focus,
+#contact #contacto #formulario textarea:focus {
+  color: #555555;
+}
+
+#contact #contacto #formulario button,
+#contact #contacto #formulario button[type="submit"] {
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #555555;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#contact #contacto #contact-data {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+#contact #contacto #contact-data ul {
+  list-style: none;
+  line-height: 35px;
+  margin-left: 5px;
+}
+
+#contact #contacto #contact-data ul li a {
+  color: #ba4e94;
+  font-weight: 600;
+  text-decoration: underline;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+#contact #contacto #contact-data ul li a:hover {
+  background-color: #ba4e94;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#mapas div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#footer {
+  background-color: #555555;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
